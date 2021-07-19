@@ -1,0 +1,100 @@
+﻿#Encabezado {
+    font-size: xx-large;
+    border: groove;
+    height: 70px;
+    text-align: center;
+}
+
+#MenuIzq {
+    font-size: large;
+    float: left;
+    height: 60px;
+    width: 30%;
+}
+
+#MenuDer {
+    font-size: large;
+    float: right;
+    height: 60px;
+    width: 70%;
+    text-align: right;
+}
+
+#SubMenu {
+    float: left;
+    height: 500px;
+    width: 150px;
+    border: groove;
+    text-align: center;
+    align-self: center;
+}
+
+#Contenido {
+    float: left;
+    height: 500px;
+    min-width: 200px;
+    max-width: 100%;
+    text-align:center;
+    align-self:center;
+}
+
+#PieDePagina {
+    float: left;
+    width: 100%;
+    border: groove;
+}
+
+#Error {
+    height: 500px;
+    min-width: 200px;
+    max-width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.tablaError {
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    column-width: 150px;
+}
+
+.tablaMenu {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.tablaContenido {
+    width: 300px;
+    column-width : 150px;
+    align-self:center;
+    margin-left:150px;
+    text-align:right;
+}
+
+.tablaSubMenu {
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BotonSubMenu {
+    width: 100px;
+    text-align: center;
+    border: thin;
+}
+
+.BotonMenu {
+    width: 100px;
+    max-width: 100px;
+    min-width: 100px;
+    text-align: center;
+    border: groove;
+}
